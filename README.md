@@ -93,11 +93,11 @@ temperature from this? The ***Beta-Formula*** helps us ( [see NTC](http://www.re
 
 $R_t = R_0 \cdot e^{\beta \cdot (\frac{1}{T} - \frac{1}{T_0})}$
 
-$R_\infin = R_0 \cdot e^{\frac{-\beta}{T_0}}$
+$R_\infty = R_0 \cdot e^{\frac{-\beta}{T_0}}$
 
-$R_t = R_\infin \cdot e^{\frac{\beta}{T}}$
+$R_t = R_\infty \cdot e^{\frac{\beta}{T}}$
 
-$T = \frac{\beta} {\ln(\frac{R_t}{R_\infin})}$
+$T = \frac{\beta} {\ln(\frac{R_t}{R_\infty})}$
 
 In the Beta-Formula $\beta$ denotes the characteristic parameter of the NTC. 
 It can be taken from the data sheet of the NTC but note that the beta values 
