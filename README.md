@@ -86,7 +86,9 @@ is calculated as follows:
 
 | NTC to GND |   | NTC to Vcc |
 |:----------:|:-:|:----------:| 
-| $R_t = R_s \cdot \frac{A_{val}} {A_{max} - A_{val}} \\~\\k = \frac{(A_{max} - A_{val})} {A_{val}}\\~\\R_t = R_s \cdot \frac{1}{k}$||$R_t = R_s \cdot \frac{A_{max} - A_{val}} {A_{val}} \\~\\k = \frac{(A_{max} - A_{val})} {A_{val}}\\~\\R_t = R_s \cdot k$|
+| $R_t = R_s \cdot \frac{A_{val}}{A_{max} - A_{val}}$||$R_t = R_s \cdot \frac{A_{max} - A_{val}}{A_{val}}$|
+|$k = \frac{(A_{max} - A_{val})}{A_{val}}$||$k = \frac{(A_{max} - A_{val})}{A_{val}}$|
+|$R_t = R_s \cdot \frac{1}{k}$||$R_t = R_s \cdot k$|
 
 Now we know the resistance value of the NTC as a function of the measured voltage. But how do we calculate the 
 temperature from this? The ***Beta-Formula*** helps us ( [see NTC](http://www.resistorguide.com/ntc-thermistor/#Voltage-current_characteristic) ) :
