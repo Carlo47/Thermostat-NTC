@@ -150,9 +150,9 @@ long as we keep the input voltage Vin smaller than the reference voltage Vref
 of the ADC.
 
 ## Design Steps
-From the considerations made, we see that quite a lot of parameters have to be 
-taken into a
-NTC and one for the ADC. Further, we take into account that the attenuation 
+It is clear from these considerations that quite a lot of parameters must be 
+taken into account. We therefore pack these into two data structures, one for 
+the NTC and one for the ADC. We also take into account that the attenuation 
 only applies to the ESP32.
 
 ```
